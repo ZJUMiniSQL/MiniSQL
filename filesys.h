@@ -63,7 +63,7 @@ class FileStore
 {
 public:
     FileStore() {}
-    void Load_data(Address, Block *);
+    void load_data(Address, Block *);
     void write_data(Address, const Block *);
     void create_file(Address);
     void remove_file(Address);
